@@ -2,7 +2,23 @@
 <head>
 <script type = "text/javascript">
 
-current = "
+current = prompt("Enter Current State");
+
+tileone = current.charAt(0);
+tiletwo = current.charAt(1);
+tilethree = current.charAt(2);
+tilefour = current.charAt(3);
+tilefive = current.charAt(4);
+tilesix = current.charAt(5);
+tileseven = current.charAt(6);
+tileeight = current.charAt(7);
+tilenine = current.charAt(8);
+
+document.write(tileone + " " + tiletwo + " " + tilethree);
+document.write("<br>")
+document.write(tilefour + " " + tilefive + " " + tilesix);
+document.write("<br>")
+document.write(tileseven + " " + tileeight + " " + tilenine);
 
 
 
