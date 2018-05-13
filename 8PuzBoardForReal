@@ -30,9 +30,11 @@ for(x=0; x<9; x++)
             }
         if(current.charAt(x) == "9")
         	{
-            alert("Move piece is on tile " + pieceloc + " ")
+            maintile = pieceloc;
             }
      }
+     
+alert("Move piece is on tile " + maintile)
 
 
 
