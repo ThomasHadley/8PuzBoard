@@ -20,6 +20,20 @@ document.write(tilefour + " " + tilefive + " " + tilesix);
 document.write("<br>")
 document.write(tileseven + " " + tileeight + " " + tilenine);
 
+pieceloc = 1;
+
+for(x=0; x<9; x++)
+	{
+    	if(current.charAt(x) != "9")
+        	{
+            pieceloc = pieceloc + 1;
+            }
+        if(current.charAt(x) == "9")
+        	{
+            alert("Move piece is on tile " + pieceloc + " ")
+            }
+     }
+
 
 
 
